@@ -1,4 +1,4 @@
-## solution 1
+## Solution 1
 ### Description
 - Provisioning infrastructure based on Azure [HDInsight](https://azure.microsoft.com/en-us/services/hdinsight/)
 - Spark cluster
