@@ -1,2 +1,2 @@
 # ds-workspace
-- [create Spark Cluster](ds-spark-cluster.md)
+- [Create Spark Cluster](ds-spark-cluster.md)
