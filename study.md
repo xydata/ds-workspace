@@ -9,7 +9,7 @@
 it seems due to the lack of access right for Gen 2 storage,
 by granting the right access role, the error is fixed.
 
-You need to follow these [steps](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2?toc=%2Fen-us%2Fazure%2Fhdinsight%2Fspark%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json) to avoid this issue.
+FIX:    You need to follow these [steps](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2?toc=%2Fen-us%2Fazure%2Fhdinsight%2Fspark%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json) to avoid this issue.
 
 - issue 2: **ClassNotFoundException**
 Got http 500 error, here is jupyter's log:
@@ -34,7 +34,7 @@ Got http 500 error, here is jupyter's log:
         raise errors.PyWebHdfsException(msg=message)
     PyWebHdfsException: {"RemoteException":{"message":"java.lang.ClassNotFoundException: Class org.apache.hadoop.fs.azurebfs.AzureBlobFileSystem not found","exception":"RuntimeException","javaClassName":"java.lang.RuntimeException"}}
 ```
-Resolved,better to wait at least 25 mins for creation of cluster. 
+FIX:    better to wait at least 25 mins for creation of cluster. 
 
 
 
