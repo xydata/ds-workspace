@@ -16,11 +16,11 @@
 ### Cost estimation
 
 the cost of the service depends on:
-- the chosen machine types: m
-- the size of whole cluster: n
-- the duration of the running job: t
+- the chosen machine types: **m**
+- the size of whole cluster: **n**
+- the duration of the running job: **t**
 
-assuming we use n1 machines of type m1, n2 machines of type m2, the total duration of jobs on both m2 and m1 is t hours, the total cost is
+assuming we use **n1** machines of type **m1**, **n2** machines of type **m2**, the total duration of jobs on both **m2** and **m1** is **t** hours, the total cost is
 ```
 Price(m1) x n1 x t + Price(m2) x n2 x t
 ```
